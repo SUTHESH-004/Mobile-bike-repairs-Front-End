@@ -1,26 +1,25 @@
+html{
+    height: 100%;/*theres no repeataion occur so  we use it*/
+}
 body{
     width:1000px;
     margin-left: auto;
     margin-right: auto;
+    background-image: linear-gradient(red,yellow);
 }
 header{
     width:1000px;
-    min-height: 200px;
     display: flex;
-    
 }
 .head{
-    background-color: aqua;
     flex:3;
-    
+    padding-top:40px;
+    padding-left: 30px; 
 }
 .nav{
-   
-    background-color: rgb(255, 67, 67);
     flex:1;
     text-align: center;
-    padding-top:100Px;
-    
+    padding-top :90px;
 }
 
 main{
@@ -28,6 +27,7 @@ main{
     
     min-height:300px;
     display: flex;
+    
 }
 .mainbox1{
    
@@ -44,25 +44,44 @@ main{
 }
 .container{
     width: 1000px;
-    background-color: rgb(106, 195, 195);
-    min-height: 200px;
- 
+   
+    height: 400px;
     display: flex;
     justify-content: space-between;
 
 }
 .class1{
-    flex:1;
     height: 300px;
+    width: 300px;
+    
     background-color: blue;
     
 }
 .class2{
-    flex: 1;
+   
     height: 300px;
+    width: 300px;
     background-color:beige;
 }
 .class3{
-    flex: 1;
+ 
     height: 300px;
+    width: 300px;
     background-color: chartreuse;}
+h1{
+    font-size: 2rem;
+    font-family: 'Aboreto', cursive;
+    padding-top: 1rem;
+
+}
+p{
+    line-height: 1.5rem;
+}
+.p1{
+    font-family: 'Aboreto', cursive;
+    margin-top: 2rem;
+}
+.p2{
+    font-family: 'Aboreto', cursive;
+
+}
