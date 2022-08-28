@@ -36,6 +36,23 @@ main{
     
 
 }
+h1{
+    font-size:2rem;
+    font-family: 'Aboreto', cursive;
+    padding-top: 1rem;
+
+}
+p{
+    line-height: 1.5rem;
+}
+.p1{
+    font-family: 'Aboreto', cursive;
+    margin-top: 2rem;
+}
+.p2{
+    font-family: 'Aboreto', cursive;
+
+}
 .mainbox2{
     min-height: 300px;
     flex: 1;
@@ -53,35 +70,21 @@ main{
 .class1{
     height: 300px;
     width: 300px;
-    
-    background-color: blue;
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
     
 }
 .class2{
    
     height: 300px;
     width: 300px;
-    background-color:beige;
+    background-image:url(images/image-background-card2.jpg);
+    background-size: cover;
 }
 .class3{
  
     height: 300px;
     width: 300px;
-    background-color: chartreuse;}
-h1{
-    font-size: 2rem;
-    font-family: 'Aboreto', cursive;
-    padding-top: 1rem;
+   background-image: url(images/image-background-card3.jpg);
 
-}
-p{
-    line-height: 1.5rem;
-}
-.p1{
-    font-family: 'Aboreto', cursive;
-    margin-top: 2rem;
-}
-.p2{
-    font-family: 'Aboreto', cursive;
 
-}
