@@ -1,11 +1,11 @@
-html{
-    height: 100%;/*theres no repeataion occur so  we use it*/
-}
+/*theres no repeataion occur so  we use it*/
+
 body{
     width:1000px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(red,yellow);
+    color: white;
 }
 header{
     width:1000px;
@@ -61,17 +61,24 @@ p{
 }
 .container{
     width: 1000px;
-   
+    
     height: 400px;
+    color: white;
     display: flex;
     justify-content: space-between;
-
+    text-align: center;
+}
+.container p{
+    font-family:'Aboreto',cursive;
+    line-height: 1rem;
+    margin:20px 30px 20px 30px;
 }
 .class1{
     height: 300px;
     width: 300px;
     background-image: url(images/image-background-card1.jpg);
     background-size: cover;
+    
     
 }
 .class2{
@@ -87,4 +94,7 @@ p{
     width: 300px;
    background-image: url(images/image-background-card3.jpg);
 
+}
+h2{
+    font-size: 30px;
 }
