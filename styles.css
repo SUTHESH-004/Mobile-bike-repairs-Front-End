@@ -71,7 +71,7 @@ p{
 .container p{
     font-family:'Aboreto',cursive;
     line-height: 1rem;
-    margin:20px 30px 20px 30px;
+    margin:20px 10px 20px 10px;
 }
 .class1{
     height: 300px;
@@ -80,6 +80,9 @@ p{
     background-size: cover;
     
     
+}
+i{
+    font-size: 100px;
 }
 .class2{
    
@@ -97,4 +100,6 @@ p{
 }
 h2{
     font-size: 30px;
+    padding-bottom: 1rem;
+    
 }
