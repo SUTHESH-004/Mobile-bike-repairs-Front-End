@@ -24,7 +24,6 @@ header{
 
 main{
     width:1000px;
-    
     min-height:300px;
     display: flex;
     
@@ -55,8 +54,15 @@ p{
 }
 .mainbox2{
     min-height: 300px;
+    
     flex: 1;
     
+
+
+}
+.imageinbox{
+    
+    border-radius: 2rem;
 
 }
 .container{
