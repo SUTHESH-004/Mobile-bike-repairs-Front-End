@@ -16,12 +16,16 @@ header{
     padding-top:40px;
     padding-left: 30px; 
 }
-.nav{
-    flex:1;
+nav{
+    flex:3;
     text-align: center;
-    padding-top :90px;
+    padding-top :80px;
+    margin-bottom: 30px;
+    margin-left: 100px;
 }
-
+ nav a.mybutton{
+    margin-left:16px;
+ }
 main{
     width:1000px;
     min-height:300px;
