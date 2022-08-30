@@ -10,14 +10,15 @@ body{
 header{
     width:1000px;
     display: flex;
+    justify-content: space-between ;
 }
 .head{
-    flex:3;
+    
     padding-top:40px;
     padding-left: 30px; 
 }
 nav{
-    flex:3;
+    
     text-align: center;
     padding-top :80px;
     margin-bottom: 30px;
@@ -136,3 +137,9 @@ h2{
     margin-top: 8px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.366);
 }
+.navbutton{
+    color:white;
+    margin-left:25px;
+    padding:11px 20px;
+border: 1px solid white;
+  }
