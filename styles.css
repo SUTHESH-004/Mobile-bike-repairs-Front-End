@@ -11,6 +11,9 @@ header{
     width:1000px;
     display: flex;
     justify-content: space-between ;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
 }
 .head{
     
@@ -20,8 +23,8 @@ header{
 nav{
     
     text-align: center;
-    padding-top :80px;
-    margin-bottom: 30px;
+    padding-top :95px;
+    margin-bottom: 20px;
     margin-left: 100px;
 }
  nav a.mybutton{
@@ -41,9 +44,9 @@ main{
 
 }
 h1{
-    font-size:2rem;
+    font-size:2.5rem;
     font-family: 'Playfair Display', serif;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.129);
 
 }
@@ -140,6 +143,8 @@ h2{
 .navbutton{
     color:white;
     margin-left:25px;
+
     padding:11px 20px;
 border: 1px solid white;
-  }
+font-family: 'Playfair Display', serif;
+}
