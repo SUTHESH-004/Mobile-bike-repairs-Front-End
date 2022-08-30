@@ -47,7 +47,7 @@ p{
 }
 .p1{
     font-family: 'Roboto', sans-serif;
-    margin-top: 2rem;
+    margin-top: 20px;
 }
 .p2{
     font-family: 'Roboto', sans-serif;
@@ -87,6 +87,7 @@ p{
     background-image: url(images/image-background-card1.jpg);
     background-size: cover;
     border-radius: 10%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.497);
     
 }
 i{
@@ -100,6 +101,7 @@ i{
     background-image:url(images/image-background-card2.jpg);
     background-size: cover;
     border-radius: 10%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.497);
 }
 .card3{
  
@@ -108,7 +110,7 @@ i{
    background-image: url(images/image-background-card3.jpg);
    background-size: cover;
    border-radius: 10%;
-
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.497);
 }
 h2{
     font-size: 30px;
@@ -124,4 +126,5 @@ h2{
     display:inline-block;
     border-radius:2px;
     margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.366);
 }
