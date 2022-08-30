@@ -39,6 +39,7 @@ h1{
     font-size:2rem;
     font-family: 'Playfair Display', serif;
     padding-top: 1rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
 
 }
 p{
@@ -80,7 +81,7 @@ p{
     
 
 }
-.class1{
+.card1{
     height: 300px;
     width: 300px;
     background-image: url(images/image-background-card1.jpg);
@@ -92,7 +93,7 @@ i{
     font-size: 100px;
     padding-top: 0.5rem;
 }
-.class2{
+.card2{
    
     height: 300px;
     width: 300px;
@@ -100,7 +101,7 @@ i{
     background-size: cover;
     border-radius: 10%;
 }
-.class3{
+.card3{
  
     height: 300px;
     width: 300px;
