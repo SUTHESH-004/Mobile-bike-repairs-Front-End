@@ -148,3 +148,29 @@ h2{
 border: 1px solid white;
 font-family: 'Playfair Display', serif;
 }
+.class12{
+    display:flex;
+    justify-content: space-between;
+
+
+}
+.class24{
+    color: white;
+    border:1px solid white; 
+    margin: 10px 10px ;
+    
+    
+}
+.class24 p{
+    padding-left: 10px;
+}
+    
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+
