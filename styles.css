@@ -150,25 +150,31 @@ font-family: 'Playfair Display', serif;
 }
 .class12{
     display:flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 
 
 }
 .class24{
     color: white;
+    width: 47%;
+    padding: 40px 40px;
     border:1px solid white; 
     margin: 10px 10px ;
+    box-sizing: border-box;
     
     
 }
 .class24 p{
+    padding-top: 10px;
     padding-left: 10px;
+    box-sizing: border-boxs;
 }
     
 h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
     border-bottom: 1px solid lightgray;
     text-align: center;
 }
