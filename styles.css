@@ -151,6 +151,9 @@ font-family: 'Playfair Display', serif;
 .class12{
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+    
 
 
 }
@@ -159,15 +162,16 @@ font-family: 'Playfair Display', serif;
     width: 47%;
     padding: 40px 40px;
     border:1px solid white; 
-    margin: 10px 10px ;
+    margin: 10px 10px 60px 10px ;
     box-sizing: border-box;
+
     
     
 }
 .class24 p{
     padding-top: 10px;
     padding-left: 10px;
-    box-sizing: border-boxs;
+    box-sizing: border-box;
 }
     
 h3 {
