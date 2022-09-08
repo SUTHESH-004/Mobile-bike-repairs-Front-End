@@ -144,8 +144,15 @@ h2{
   .mybutton:hover{
     background-color:#FC5760;
     color: white;
-    transition-duration:1s;
+    transition-duration:0.5s;
+    transition-delay:0.5s;
 
+  }
+  .mybutton:active{
+    background-color:blue;
+    
+    transition-duration:0.5s;
+    transition-delay: 0.5s;
   }
 .navbutton{
     color:white;
@@ -154,6 +161,26 @@ h2{
     padding:11px 20px;
 border: 1px solid white;
 font-family: 'Playfair Display', serif;
+
+
+}
+.navbutton:hover{
+    color: #FA4083;
+    margin-left:25px;
+background-color:white;
+    padding:11px 20px;
+border: 1px solid #FA4083;
+font-family: 'Playfair Display', serif;
+transition-duration:0.5s;
+
+
+
+
+}
+.navbutton:active{
+    color:blue;
+    background-color: antiquewhite;
+    transform:scale(0.9);
 }
 .class12{
     display:flex;
