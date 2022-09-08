@@ -26,6 +26,8 @@ nav{
     padding-top :95px;
     margin-bottom: 20px;
     margin-left: 100px;
+    display:flex;
+    
 
 }
 
@@ -187,6 +189,7 @@ transition-duration:0.5s;
 .navbutton:active{
     color:blue;
     background-color: antiquewhite;
+    transition-duration: 1s;
     transform:scale(0.95);
 }
 .class12{
