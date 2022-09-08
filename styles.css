@@ -29,7 +29,7 @@ nav{
 
 }
 
-butt.active{
+.butt:active{
     color:black;
     background-color:aqua;
     transition-duration:1s;
