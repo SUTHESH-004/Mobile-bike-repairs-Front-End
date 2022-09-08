@@ -30,6 +30,7 @@ nav{
  nav a.mybutton{
     margin-left:16px;
  }
+  
 main{
     width:1000px;
     min-height:300px;
@@ -140,6 +141,12 @@ h2{
     margin-top: 8px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.366);
 }
+  .mybutton:hover{
+    background-color:#FC5760;
+    color: white;
+    transition-duration:1s;
+
+  }
 .navbutton{
     color:white;
     margin-left:25px;
